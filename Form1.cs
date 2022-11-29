@@ -145,6 +145,8 @@ namespace Copy_paste_app
                 //textBoxInfo2 = the default Info link
                 string? inputDate = textBoxDT1.Text;
                 inputDate = inputDate.Replace('/', '-');
+                if (inputDate[1] == '-') // for dates that are before the 10th of the month e.g. 1/12/2022
+                    inputDate = inputDate.Insert(0, "0");
                 DateTime date = DateTime.ParseExact(inputDate, "dd-MM-yyyy HH:mm",
                     System.Globalization.CultureInfo.InvariantCulture);
                 //change the hour to be -1h and 15 minutes from the input hour
