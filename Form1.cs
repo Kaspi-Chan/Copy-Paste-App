@@ -192,7 +192,7 @@ namespace Copy_paste_app
         public List<TextBox> textBoxes = new List<TextBox>();
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            using (StreamWriter sw = new StreamWriter(@"D:\test.txt"))
+            using (StreamWriter sw = new StreamWriter(@"C:\test.txt"))
             {
                 foreach (TextBox text in textBoxes)
                 {
@@ -208,9 +208,9 @@ namespace Copy_paste_app
                 temp.Add(textBox);
             }
             textBoxes = temp;
-            if (File.Exists(@"D:\test.txt"))
+            if (File.Exists(@"C:\test.txt"))
             {
-                using (StreamReader sr = new StreamReader(@"D:\test.txt"))
+                using (StreamReader sr = new StreamReader(@"C:\test.txt"))
                 {
                     for (int i = 0; i < textBoxes.Count; i++)
                     {
