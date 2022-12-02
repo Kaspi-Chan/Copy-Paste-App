@@ -359,7 +359,6 @@ namespace Copy_paste_app
             this.textBoxArticleLink2.ReadOnly = true;
             this.textBoxArticleLink2.Size = new System.Drawing.Size(390, 26);
             this.textBoxArticleLink2.TabIndex = 49;
-            this.textBoxArticleLink2.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // buttonALEmpty
             // 
@@ -370,7 +369,6 @@ namespace Copy_paste_app
             this.buttonALEmpty.TabIndex = 48;
             this.buttonALEmpty.Text = "Empty";
             this.buttonALEmpty.UseVisualStyleBackColor = true;
-            this.buttonALEmpty.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonALCopy
             // 
@@ -381,7 +379,6 @@ namespace Copy_paste_app
             this.buttonALCopy.TabIndex = 47;
             this.buttonALCopy.Text = "Copy";
             this.buttonALCopy.UseVisualStyleBackColor = true;
-            this.buttonALCopy.Click += new System.EventHandler(this.button2_Click);
             // 
             // buttonChangeTextAL
             // 
@@ -392,7 +389,6 @@ namespace Copy_paste_app
             this.buttonChangeTextAL.TabIndex = 45;
             this.buttonChangeTextAL.Text = "Change Text";
             this.buttonChangeTextAL.UseVisualStyleBackColor = true;
-            this.buttonChangeTextAL.Click += new System.EventHandler(this.button3_Click);
             // 
             // textBoxArticleLink1
             // 
@@ -402,7 +398,6 @@ namespace Copy_paste_app
             this.textBoxArticleLink1.PlaceholderText = "New Link";
             this.textBoxArticleLink1.Size = new System.Drawing.Size(390, 26);
             this.textBoxArticleLink1.TabIndex = 44;
-            this.textBoxArticleLink1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label6
             // 
@@ -415,7 +410,6 @@ namespace Copy_paste_app
             this.label6.Size = new System.Drawing.Size(118, 25);
             this.label6.TabIndex = 43;
             this.label6.Text = "Article Link";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // Form1
             // 
