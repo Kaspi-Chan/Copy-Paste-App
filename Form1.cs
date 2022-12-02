@@ -220,16 +220,50 @@ namespace Copy_paste_app
             }
         }
 
+        /**ADD LINK*/
         private void buttonChangeTextAL_Click(object sender, EventArgs e)
         {
-            var linkText = textBoxArticleLink1.Text;
-            StringBuilder st = new StringBuilder(linkText);
-            st.Remove(0, 27);
-            textBoxArticleLink2.Text = st.ToString();
+            try
+            {
+                var linkText = textBoxArticleLink1.Text;
+                StringBuilder st = new StringBuilder(linkText);
+                st.Remove(0, 27);
+                textBoxArticleLink2.Text = st.ToString();
+            }
+            catch (Exception ex)
+            {
+
+            }
+        }
+
+        private void buttonALCopy_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(textBoxArticleLink2.Text);
+            }
+            catch (System.ArgumentNullException)
+            {
+
+            }
+            MessageBox.Show("CLICK BUILD TEAM JSON !!!");
+        }
+
+        private void buttonALEmpty_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                textBoxArticleLink1.Text = default;
+                textBoxArticleLink2.Text = default;
+            }
+            catch (System.ArgumentNullException)
+            {
+
+            }
         }
 
 
         // TO DO
-        // 2. Make a function to be able to list the league's ids and easily check them (dropdown menu or smth)
+        // 1. Make a function to be able to list the league's ids and easily check them (dropdown menu or smth)
     }
 }

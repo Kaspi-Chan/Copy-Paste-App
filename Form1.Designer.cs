@@ -191,7 +191,7 @@ namespace Copy_paste_app
             // 
             // buttonReplaceDT
             // 
-            this.buttonReplaceDT.Location = new System.Drawing.Point(15, 529);
+            this.buttonReplaceDT.Location = new System.Drawing.Point(15, 521);
             this.buttonReplaceDT.Margin = new System.Windows.Forms.Padding(4);
             this.buttonReplaceDT.Name = "buttonReplaceDT";
             this.buttonReplaceDT.Size = new System.Drawing.Size(390, 26);
@@ -202,7 +202,7 @@ namespace Copy_paste_app
             // 
             // textBoxDT2
             // 
-            this.textBoxDT2.Location = new System.Drawing.Point(15, 495);
+            this.textBoxDT2.Location = new System.Drawing.Point(15, 487);
             this.textBoxDT2.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxDT2.Name = "textBoxDT2";
             this.textBoxDT2.ReadOnly = true;
@@ -214,7 +214,7 @@ namespace Copy_paste_app
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Red;
-            this.label4.Location = new System.Drawing.Point(13, 435);
+            this.label4.Location = new System.Drawing.Point(13, 427);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(145, 25);
@@ -279,7 +279,7 @@ namespace Copy_paste_app
             // 
             // buttonDTCopy
             // 
-            this.buttonDTCopy.Location = new System.Drawing.Point(414, 461);
+            this.buttonDTCopy.Location = new System.Drawing.Point(414, 453);
             this.buttonDTCopy.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDTCopy.Name = "buttonDTCopy";
             this.buttonDTCopy.Size = new System.Drawing.Size(96, 60);
@@ -312,7 +312,7 @@ namespace Copy_paste_app
             // 
             // buttonDTEmpty
             // 
-            this.buttonDTEmpty.Location = new System.Drawing.Point(414, 528);
+            this.buttonDTEmpty.Location = new System.Drawing.Point(414, 520);
             this.buttonDTEmpty.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDTEmpty.Name = "buttonDTEmpty";
             this.buttonDTEmpty.Size = new System.Drawing.Size(96, 28);
@@ -342,7 +342,7 @@ namespace Copy_paste_app
             // 
             // textBoxDT1
             // 
-            this.textBoxDT1.Location = new System.Drawing.Point(15, 461);
+            this.textBoxDT1.Location = new System.Drawing.Point(15, 453);
             this.textBoxDT1.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxDT1.Name = "textBoxDT1";
             this.textBoxDT1.PlaceholderText = "Match date";
@@ -351,7 +351,7 @@ namespace Copy_paste_app
             // 
             // textBoxArticleLink2
             // 
-            this.textBoxArticleLink2.Location = new System.Drawing.Point(13, 634);
+            this.textBoxArticleLink2.Location = new System.Drawing.Point(15, 620);
             this.textBoxArticleLink2.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxArticleLink2.Name = "textBoxArticleLink2";
             this.textBoxArticleLink2.PlaceholderText = "football-match-previews/14923-japan-and-croatia-braced-for-close-fought-battle-in" +
@@ -362,27 +362,29 @@ namespace Copy_paste_app
             // 
             // buttonALEmpty
             // 
-            this.buttonALEmpty.Location = new System.Drawing.Point(412, 667);
+            this.buttonALEmpty.Location = new System.Drawing.Point(414, 653);
             this.buttonALEmpty.Margin = new System.Windows.Forms.Padding(4);
             this.buttonALEmpty.Name = "buttonALEmpty";
             this.buttonALEmpty.Size = new System.Drawing.Size(96, 28);
             this.buttonALEmpty.TabIndex = 48;
             this.buttonALEmpty.Text = "Empty";
             this.buttonALEmpty.UseVisualStyleBackColor = true;
+            this.buttonALEmpty.Click += new System.EventHandler(this.buttonALEmpty_Click);
             // 
             // buttonALCopy
             // 
-            this.buttonALCopy.Location = new System.Drawing.Point(412, 599);
+            this.buttonALCopy.Location = new System.Drawing.Point(414, 585);
             this.buttonALCopy.Margin = new System.Windows.Forms.Padding(4);
             this.buttonALCopy.Name = "buttonALCopy";
             this.buttonALCopy.Size = new System.Drawing.Size(96, 60);
             this.buttonALCopy.TabIndex = 47;
             this.buttonALCopy.Text = "Copy";
             this.buttonALCopy.UseVisualStyleBackColor = true;
+            this.buttonALCopy.Click += new System.EventHandler(this.buttonALCopy_Click);
             // 
             // buttonChangeTextAL
             // 
-            this.buttonChangeTextAL.Location = new System.Drawing.Point(13, 668);
+            this.buttonChangeTextAL.Location = new System.Drawing.Point(15, 654);
             this.buttonChangeTextAL.Margin = new System.Windows.Forms.Padding(4);
             this.buttonChangeTextAL.Name = "buttonChangeTextAL";
             this.buttonChangeTextAL.Size = new System.Drawing.Size(392, 28);
@@ -393,7 +395,7 @@ namespace Copy_paste_app
             // 
             // textBoxArticleLink1
             // 
-            this.textBoxArticleLink1.Location = new System.Drawing.Point(13, 600);
+            this.textBoxArticleLink1.Location = new System.Drawing.Point(15, 586);
             this.textBoxArticleLink1.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxArticleLink1.Name = "textBoxArticleLink1";
             this.textBoxArticleLink1.PlaceholderText = "New Link";
@@ -405,7 +407,7 @@ namespace Copy_paste_app
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Red;
-            this.label6.Location = new System.Drawing.Point(11, 571);
+            this.label6.Location = new System.Drawing.Point(13, 557);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(118, 25);
@@ -417,7 +419,7 @@ namespace Copy_paste_app
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(531, 737);
+            this.ClientSize = new System.Drawing.Size(527, 702);
             this.Controls.Add(this.textBoxArticleLink2);
             this.Controls.Add(this.buttonALEmpty);
             this.Controls.Add(this.buttonALCopy);
