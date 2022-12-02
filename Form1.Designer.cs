@@ -389,6 +389,7 @@ namespace Copy_paste_app
             this.buttonChangeTextAL.TabIndex = 45;
             this.buttonChangeTextAL.Text = "Change Text";
             this.buttonChangeTextAL.UseVisualStyleBackColor = true;
+            this.buttonChangeTextAL.Click += new System.EventHandler(this.buttonChangeTextAL_Click);
             // 
             // textBoxArticleLink1
             // 

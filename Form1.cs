@@ -220,6 +220,14 @@ namespace Copy_paste_app
             }
         }
 
+        private void buttonChangeTextAL_Click(object sender, EventArgs e)
+        {
+            var linkText = textBoxArticleLink1.Text;
+            StringBuilder st = new StringBuilder(linkText);
+            st.Remove(0, 27);
+            textBoxArticleLink2.Text = st.ToString();
+        }
+
 
         // TO DO
         // 2. Make a function to be able to list the league's ids and easily check them (dropdown menu or smth)
