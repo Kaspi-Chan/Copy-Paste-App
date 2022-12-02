@@ -220,6 +220,41 @@ namespace Copy_paste_app
             }
         }
 
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
         // TO DO
         // 1. Try copying the info id directly from matchID 2 textbox instead of manually pasting it
         // 2. Make a function to be able to list the league's ids and easily check them (dropdown menu or smth)

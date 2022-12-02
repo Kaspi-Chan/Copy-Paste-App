@@ -57,6 +57,12 @@ namespace Copy_paste_app
             this.textBoxMatchId2 = new System.Windows.Forms.TextBox();
             this.textBoxInfo2 = new System.Windows.Forms.TextBox();
             this.textBoxDT1 = new System.Windows.Forms.TextBox();
+            this.textBoxArticleLink2 = new System.Windows.Forms.TextBox();
+            this.buttonALEmpty = new System.Windows.Forms.Button();
+            this.buttonALCopy = new System.Windows.Forms.Button();
+            this.buttonChangeTextAL = new System.Windows.Forms.Button();
+            this.textBoxArticleLink1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // Copy
@@ -343,12 +349,86 @@ namespace Copy_paste_app
             this.textBoxDT1.Size = new System.Drawing.Size(390, 26);
             this.textBoxDT1.TabIndex = 42;
             // 
+            // textBoxArticleLink2
+            // 
+            this.textBoxArticleLink2.Location = new System.Drawing.Point(13, 634);
+            this.textBoxArticleLink2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxArticleLink2.Name = "textBoxArticleLink2";
+            this.textBoxArticleLink2.PlaceholderText = "football-match-previews/14923-japan-and-croatia-braced-for-close-fought-battle-in" +
+    "-last-16";
+            this.textBoxArticleLink2.ReadOnly = true;
+            this.textBoxArticleLink2.Size = new System.Drawing.Size(390, 26);
+            this.textBoxArticleLink2.TabIndex = 49;
+            this.textBoxArticleLink2.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // buttonALEmpty
+            // 
+            this.buttonALEmpty.Location = new System.Drawing.Point(412, 667);
+            this.buttonALEmpty.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonALEmpty.Name = "buttonALEmpty";
+            this.buttonALEmpty.Size = new System.Drawing.Size(96, 28);
+            this.buttonALEmpty.TabIndex = 48;
+            this.buttonALEmpty.Text = "Empty";
+            this.buttonALEmpty.UseVisualStyleBackColor = true;
+            this.buttonALEmpty.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // buttonALCopy
+            // 
+            this.buttonALCopy.Location = new System.Drawing.Point(412, 599);
+            this.buttonALCopy.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonALCopy.Name = "buttonALCopy";
+            this.buttonALCopy.Size = new System.Drawing.Size(96, 60);
+            this.buttonALCopy.TabIndex = 47;
+            this.buttonALCopy.Text = "Copy";
+            this.buttonALCopy.UseVisualStyleBackColor = true;
+            this.buttonALCopy.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // buttonChangeTextAL
+            // 
+            this.buttonChangeTextAL.Location = new System.Drawing.Point(13, 668);
+            this.buttonChangeTextAL.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonChangeTextAL.Name = "buttonChangeTextAL";
+            this.buttonChangeTextAL.Size = new System.Drawing.Size(392, 28);
+            this.buttonChangeTextAL.TabIndex = 45;
+            this.buttonChangeTextAL.Text = "Change Text";
+            this.buttonChangeTextAL.UseVisualStyleBackColor = true;
+            this.buttonChangeTextAL.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // textBoxArticleLink1
+            // 
+            this.textBoxArticleLink1.Location = new System.Drawing.Point(13, 600);
+            this.textBoxArticleLink1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBoxArticleLink1.Name = "textBoxArticleLink1";
+            this.textBoxArticleLink1.PlaceholderText = "New Link";
+            this.textBoxArticleLink1.Size = new System.Drawing.Size(390, 26);
+            this.textBoxArticleLink1.TabIndex = 44;
+            this.textBoxArticleLink1.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.Red;
+            this.label6.Location = new System.Drawing.Point(11, 571);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(118, 25);
+            this.label6.TabIndex = 43;
+            this.label6.Text = "Article Link";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(531, 575);
+            this.ClientSize = new System.Drawing.Size(531, 737);
+            this.Controls.Add(this.textBoxArticleLink2);
+            this.Controls.Add(this.buttonALEmpty);
+            this.Controls.Add(this.buttonALCopy);
+            this.Controls.Add(this.buttonChangeTextAL);
+            this.Controls.Add(this.textBoxArticleLink1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.textBoxDT1);
             this.Controls.Add(this.textBoxInfo2);
             this.Controls.Add(this.textBoxMatchId2);
@@ -420,6 +500,12 @@ namespace Copy_paste_app
         public System.Windows.Forms.TextBox textBoxMatchId2;
         private System.Windows.Forms.TextBox textBoxInfo2;
         private System.Windows.Forms.TextBox textBoxDT1;
+        public System.Windows.Forms.TextBox textBoxArticleLink2;
+        private System.Windows.Forms.Button buttonALEmpty;
+        private System.Windows.Forms.Button buttonALCopy;
+        private System.Windows.Forms.Button buttonChangeTextAL;
+        public System.Windows.Forms.TextBox textBoxArticleLink1;
+        private System.Windows.Forms.Label label6;
     }
 }
 
