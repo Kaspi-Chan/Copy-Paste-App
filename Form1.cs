@@ -208,7 +208,7 @@ namespace Copy_paste_app
                 temp.Add(textBox);
             }
             textBoxes = temp;
-            if (File.Exists(@"D:\test.txt"))
+            if (File.Exists(@"C:\test.txt"))
             {
                 using (StreamReader sr = new StreamReader(@"D:\test.txt"))
                 {
