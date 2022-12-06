@@ -63,6 +63,7 @@ namespace Copy_paste_app
             this.buttonChangeTextAL = new System.Windows.Forms.Button();
             this.textBoxArticleLink1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.buttonAlCopy1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Copy
@@ -373,10 +374,10 @@ namespace Copy_paste_app
             // 
             // buttonALCopy
             // 
-            this.buttonALCopy.Location = new System.Drawing.Point(414, 585);
+            this.buttonALCopy.Location = new System.Drawing.Point(414, 620);
             this.buttonALCopy.Margin = new System.Windows.Forms.Padding(4);
             this.buttonALCopy.Name = "buttonALCopy";
-            this.buttonALCopy.Size = new System.Drawing.Size(96, 60);
+            this.buttonALCopy.Size = new System.Drawing.Size(96, 25);
             this.buttonALCopy.TabIndex = 47;
             this.buttonALCopy.Text = "Copy";
             this.buttonALCopy.UseVisualStyleBackColor = true;
@@ -414,12 +415,24 @@ namespace Copy_paste_app
             this.label6.TabIndex = 43;
             this.label6.Text = "Article Link";
             // 
+            // buttonAlCopy1
+            // 
+            this.buttonAlCopy1.Location = new System.Drawing.Point(413, 586);
+            this.buttonAlCopy1.Margin = new System.Windows.Forms.Padding(4);
+            this.buttonAlCopy1.Name = "buttonAlCopy1";
+            this.buttonAlCopy1.Size = new System.Drawing.Size(96, 26);
+            this.buttonAlCopy1.TabIndex = 50;
+            this.buttonAlCopy1.Text = "Copy";
+            this.buttonAlCopy1.UseVisualStyleBackColor = true;
+            this.buttonAlCopy1.Click += new System.EventHandler(this.buttonAlCopy1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(527, 702);
+            this.Controls.Add(this.buttonAlCopy1);
             this.Controls.Add(this.textBoxArticleLink2);
             this.Controls.Add(this.buttonALEmpty);
             this.Controls.Add(this.buttonALCopy);
@@ -503,6 +516,7 @@ namespace Copy_paste_app
         private System.Windows.Forms.Button buttonChangeTextAL;
         public System.Windows.Forms.TextBox textBoxArticleLink1;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button buttonAlCopy1;
     }
 }
 
