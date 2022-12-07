@@ -262,6 +262,18 @@ namespace Copy_paste_app
             }
         }
 
+        private void buttonAlCopy1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Clipboard.SetText(textBoxArticleLink1.Text);
+            }
+            catch (System.ArgumentNullException)
+            {
+
+            }
+        }
+
 
         // TO DO
         // 1. Make a function to be able to list the league's ids and easily check them (dropdown menu or smth)
