@@ -163,6 +163,7 @@ namespace Copy_paste_app
             {
                 MessageBox.Show("Format not correct :< !");
             }
+            catch(System.ArgumentNullException) { }
             
         }
 
