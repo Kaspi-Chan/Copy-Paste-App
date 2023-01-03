@@ -249,7 +249,6 @@ namespace Copy_paste_app
             {
 
             }
-            MessageBox.Show("CLICK BUILD TEAM JSON !!!");
         }
 
         private void buttonALEmpty_Click(object sender, EventArgs e)
